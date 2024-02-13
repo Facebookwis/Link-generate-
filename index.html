@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width">
+    <title>GODOFLIOTER</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&display=swap">
+    <style>
+        body {
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 10px;
+            background: #effeef;
+            color: #1aefca;
+            letter-spacing: 1.5px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(120, 220, 100, 0.75), rgba(0, 0, 0, 0));
+        }
+
+        h1 {
+            color: #1aefca;
+        }
+
+        form {
+            margin: 10px auto;
+            padding: 5px;
+            max-width: 580px;
+            text-align: center;
+        }
+
+        .text {
+            font-size: 16px;
+            color: #8e2de2;
+            outline: 0;
+            border-radius: 5px;
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 8px 15px;
+            height: 45px;
+            border: solid 1px #1aefca;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            width: 90%;
+        }
+
+        .submit {
+            font-size: 16px;
+            color: #1aefca;
+            background: linear-gradient(to right, #0575e6, #021b79);
+            outline: 0;
+            border-radius: 5px;
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 8px 15px;
+            height: 45px;
+            border: solid 1px #1aefca;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            width: 40%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+            z-index: -1;
+        }
+
+        .submit:hover::before {
+            transform: scaleX(1);
+        }
+
+        h3 {
+            color: #1aefca;
+            padding: 5px 0;
+        }
+
+        strong {
+            color: orange;
+        }
+    </style>
+    <style>
+        input[type=text],
+        select {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 60%;
+            background-color: dodgerblue;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: dodgerblue;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #eee;
+            padding: 20px;
+        }
+
+        .header {
+            color: #fff;
+            background-color: dodgerblue;
+            margin-bottom: 2px;
+            padding: 5px 6px;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width">
+    <title>TOTALSCRIPTE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&display=swap">
+    <style>
+        body {
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 10px;
+            background: #effeef;
+            color: #1aefca;
+            letter-spacing: 1.5px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(120, 220, 100, 0.75), rgba(0, 0, 0, 0));
+        }
+
+        h1 {
+            color: #1aefca;
+        }
+
+        form {
+            margin: 10px auto;
+            padding: 5px;
+            max-width: 580px;
+            text-align: center;
+        }
+
+        .text {
+            font-size: 16px;
+            color: #8e2de2;
+            outline: 0;
+            border-radius: 5px;
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 8px 15px;
+            height: 45px;
+            border: solid 1px #1aefca;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            width: 90%;
+        }
+
+        .submit {
+            font-size: 16px;
+            color: #1aefca;
+            background: linear-gradient(to right, #0575e6, #021b79);
+            outline: 0;
+            border-radius: 5px;
+            font-family: 'Acme', sans-serif;
+            text-align: center;
+            padding: 8px 15px;
+            height: 45px;
+            border: solid 1px #1aefca;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            width: 40%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+            z-index: -1;
+        }
+
+        .submit:hover::before {
+            transform: scaleX(1);
+        }
+
+        h3 {
+            color: #1aefca;
+            padding: 5px 0;
+        }
+
+        strong {
+            color: orange;
+        }
+    </style>
+    <style>
+        input[type=text],
+        select {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 60%;
+            background-color: dodgerblue;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: dodgerblue;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #eee;
+            padding: 20px;
+        }
+
+        .header {
+            color: #fff;
+            background-color: dodgerblue;
+            margin-bottom: 2px;
+            padding: 5px 6px;
+            border: 1px solid #darkred;
+        }
+
+        .error {
+            background: #ffebe8;
+            border: 1px solid #dd3c10;
+            padding: 2px;
+            text-align: center;
+            font-weight: normal;
+            color: maroon;
+        }
+
+        .success {
+            background: #fff8cc;
+            border: 1px solid #ffe222;
+            padding: 10px;
+            text-align: center;
+            font-weight: normal;
+            color: #000;
+        }
+    </style>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-140398127-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <hr>
+    <font color='Red' size='5'> AGENT OWEN LINK CREATE
+        <hr>
+
+        <input type="text" id="textInput" placeholder="enter channel name without @">
+        <button class="submit" onclick="generateLink()">Generate Link</button>
+        <button class="submit" onclick="copyLink()">Copy Link</button>
+
+        <p id="generatedLink"></p>
+
+        <script>
+            function generateLink() {
+                var textInputValue = document.getElementById('textInput').value;
+                if (textInputValue.trim() !== '') {
+                    var link = ' + encodeURIComponent(textInputValue);
+                    document.getElementById('generatedLink').textContent = 'Generated link: ' https://t.me/godoflooter + link;
+                    // Store the link in a global variable for later copying
+                    window.generatedLink = link;
+                } else {
+                    alert('Please enter text before generating the link.');
+                }
+            }
+
+            function copyLink() {
+                if (window.generatedLink) {
+                    var copyText = document.createElement('textarea');
+                    copyText.value = window.generatedLink;
+                    document.body.appendChild(copyText);
+                    copyText.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(copyText);
+                    alert('Link copied to clipboard: ' + window.generatedLink);
+                } else {
+                    alert('Generate a link first before copying.');
+                }
+            }
+        </script>
+</body>
+
+</html>￼Enter            border: 1px solid #darkred;
+        }
+
+        .error {
+            background: #ffebe8;
+            border: 1px solid #dd3c10;
+            padding: 2px;
+            text-align: center;
+            font-weight: normal;
+            color: maroon;
+        }
+
+        .success {
+            background: #fff8cc;
+            border: 1px solid #ffe222;
+            padding: 10px;
+            text-align: center;
+            font-weight: normal;
+            color: #000;
+        }
+    </style>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-140398127-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <hr>
+    <font color='Red' size='5'> AGENT OWEN LINK CREATE
+        <hr>
+
+        <input type="text" id="textInput" placeholder="enter channel name without @">
+        <button class="submit" onclick="generateLink()">Generate Link</button>
+        <button class="submit" onclick="copyLink()">Copy Link</button>
+
+        <p id="generatedLink"></p>
+
+        <script>
+            function generateLink() {
+                var textInputValue = document.getElementById('textInput').value;
